@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { connect } from 'react-redux';
+import { func, bool } from 'prop-types';
+import { start } from '../actions';
+import logo from '../assets/logo.svg';
+import './App.scss';
 
 class App extends Component {
+  static propTypes = {
+    start: func,
+    isClicking: bool,
+  }
+
   render() {
     return (
       <div className="App">
@@ -19,10 +27,18 @@ class App extends Component {
           >
             Learn React
           </a>
+          <button className="btn btn-primary btn-lg" onClick={() => this.props.start()}>
+            {this.props.isClicking ? 'Clicking ...' : 'Click Me' }
+          </button>
         </header>
       </div>
     );
   }
 }
 
-export default App;
+
+const mapStateToProps = ({ isClicking }) => ({
+  isClicking,
+});
+
+export default connect(mapStateToProps, { start })(App);

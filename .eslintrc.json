@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "airbnb-base",
+        "react-app",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react",
+        "import"
+    ],
+    "rules": {
+        "class-methods-use-this": "off"
+    }
+}
