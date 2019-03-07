@@ -1,7 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Libraries/Frameworks available
 
+- Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - [Redux](https://redux.js.org/)
     - [redux-thunk](https://github.com/reduxjs/redux-thunk) middleware
 - [Bootstrap 4.x](https://getbootstrap.com/)
