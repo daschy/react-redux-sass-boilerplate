@@ -3,6 +3,7 @@
 ## Libraries/Frameworks available
 
 - Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Prop-types](https://www.npmjs.com/package/prop-types)
 - [Redux](https://redux.js.org/)
     - [redux-thunk](https://github.com/reduxjs/redux-thunk) middleware
 - [Bootstrap 4.x](https://getbootstrap.com/)
