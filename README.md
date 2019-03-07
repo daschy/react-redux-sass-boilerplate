@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Libraries/Frameworks available
+
+- [Redux](https://redux.js.org/)
+    - [redux-thunk](https://github.com/reduxjs/redux-thunk) middleware
+- [Bootstrap 4.x](https://getbootstrap.com/)
+- [Eslint](https://eslint.org/) with Airbnb linting rules
+- [Stylelint](https://github.com/stylelint/stylelint) for SCSS files
+- [Husky](https://github.com/typicode/husky) for running the scripts on the git hooks
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -36,6 +46,11 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+### `npm run lint`
+
+It runs eslint and stylelint in parallel
+
 
 ## Learn More
 
